@@ -1,23 +1,23 @@
-.container{
-   background-color: #fff;
-   padding: 20px;
-   border-radius: 10px;
-   text-align: center;
-}
-.code-container{
-    display: flex;
-    justify-content: space-between;
-}
-.code{
-    width: 40px;
-    height: 50px;
-    font-size: 24px;
-    text-align: center;
-    border: 1px solid gray;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-}
-.focused{
-    border: 2px solid #2baa1a;
-    border-radius: 10px;
-    outline: none;
-}
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .code-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .code {
+            width: 40px;
+            height: 50px;
+            font-size: 24px;
+            text-align: center;
+            border: 1px solid gray;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        .code[focused] {
+            border: 2px solid #2baa1a;
+            border-radius: 10px;
+            outline: none;
+        }
